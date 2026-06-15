@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "MeatLedger",
+    "slug": "meatledger-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#8E1B1B"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.meatledger.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#8E1B1B"
+      },
+      "package": "com.meatledger.mobile",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+
+    "extra": {
+      "eas": {
+        "projectId": "1423abac-cbe1-48c0-a9a6-9288f788e494"
+      }
+    },
+    "owner": "umarshareef"
+  }
+}
